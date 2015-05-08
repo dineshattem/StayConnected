@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_hdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#65cbbb"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:id="@+id/slidingmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:paddingLeft="5dip" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:src="@drawable/search" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_serach"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/slidingmenu"
+            android:background="@drawable/bg_editext"
+            android:ems="8"
+            android:paddingLeft="5dp"
+            android:textColor="#cecece"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="gone" >
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/homemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingRight="5dip" >
+
+            <Button
+                android:id="@+id/btn_done"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:background="#545454"
+                android:text="DONE"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_phone_contacts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_hdr"
+        android:background="#ffffff"
+        android:visibility="visible" />
+
+</RelativeLayout>
