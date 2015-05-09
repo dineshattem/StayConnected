@@ -3,7 +3,7 @@
 With StayConnected, Everyone stays connected.
 Stay Connected makes your closer ones much closer and improves your connections within your circles.
 
-How to run this code: Directly Download the Source Code and run it on Android Studio.
+How to run this code: Directly Download the Source Code and import the extracted folder to android studio.
 
 Below are the descriptions of some Main screens which help you to understand the App better.
 
