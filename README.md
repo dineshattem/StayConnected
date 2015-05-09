@@ -11,8 +11,10 @@ Screen 1:
 In the home screen you can add a New Group and manage your existing Groups
 
 
+
 Screen 2:
 In the home screen after you tap Create Group you can name the New Group and add a default reminder time for the group in terms of minutes,hours,days,weeks.
+
 
 Screen 3:
 Once you Create a group it is redirected to My Groups Screen where you can see all the Groups Created. You can select the group to which you want to add contacts and add contacts into the group by pressing + symbol in the screen.
